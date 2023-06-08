@@ -3,6 +3,7 @@ import Card from './components/Card';
 import useJoke from './hooks/useJoke';
 import Button from './components/Button';
 import Input from './components/Input';
+import Todo from './components/Todo';
 import { useRef, useState } from 'react';
 
 export default function App() {
@@ -26,6 +27,7 @@ export default function App() {
           <Button onClick={generateJoke}>Generate a joke</Button>
         </Card.Footer>
       </Card>
+      <Todo />
     </PlaceContentCenter>
   );
 }

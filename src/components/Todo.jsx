@@ -59,7 +59,7 @@ export default function Todo() {
                 </span>
                 <div className='flex items-center gap-x-2'>
                   <button onClick={() => handleCompleteTask(task.id)} className={'px-2 py-1 border text-xs'}>
-                    Mark as {task.completed ? 'completed' : 'incompleted'}
+                    Mark as {task.completed ? 'incompleted' : 'completed'}
                   </button>
                   <button onClick={() => handleRemoveTask(task.id)} className={'px-2 py-1 border text-xs'}>
                     remove
